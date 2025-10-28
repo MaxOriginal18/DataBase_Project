@@ -17,4 +17,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Указываем команду запуска
-CMD ["python", "backend/bot.py"]
+CMD ["python", "bot.py"]
